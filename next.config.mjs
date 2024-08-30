@@ -2,7 +2,8 @@
 
 const nextConfig = {
   experimental: {
-    // typedRoutes: true,
+    // Enable Partial Prerendering (see usage example in app/dashboard/layout.tsx)
+    ppr: 'incremental',
   },
 };
 
